@@ -3,16 +3,16 @@
 
 
 :root {
-    --primary-color: #62524E;
-    --seconday-color: #4B7F52;
-    --accent1-color: #FFDB63;
-    --accent2-color: #19577D; 
+    --primary-color: #62524e;
+    --seconday-color: #4b7f52;
+    --accent1-color: #ffdb63;
+    --accent2-color: #19577d; 
     --heading-font: 'roboto', serif;
     --paragraph-font: 'barlow', serif;
     --nav-background-color: var(--accent1-color);
-    --nav-link-color: var(--seconday-color);
-    --nav-hover-link-color: var(--primary-color);
-    --nav-hover-background-color: var(--seconday-color);
+    --nav-link-color: var(---primary-color);
+    --nav-hover-link-color: #fff; 
+    --nav-hover-background-color: #000;
 }
 
 body {
