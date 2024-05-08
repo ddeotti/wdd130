@@ -14,8 +14,8 @@ body {
     --secondary-color: #4b7f52;
     --accent1-color: #ffdb63;
     --accent2-color: #19577d;
-    --heading-font: 'roboto', serif;
-    --paragraph-font: 'barlow', serif;
+    --heading-font: 'Roboto', serif;
+    --paragraph-font: 'Barlow', serif;
     --nav-background-color: var(--accent1-color);
     --nav-link-color: var(---primary-color);
     --nav-hover-link-color: #fff;
