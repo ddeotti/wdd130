@@ -72,6 +72,9 @@ nav img {
     width:50%;
     height:auto;
 }
+.history {
+    position: relative;
+}
 .adventure {
     position: relative; 
 }
