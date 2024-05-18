@@ -92,6 +92,8 @@ header, .grid, footer {
 
 footer {
     text-align: center;
+    margin-top: 1px;
+    border-top: 1px solid steelblue;
 }
 
 /* Class Selectors */
