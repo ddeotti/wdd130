@@ -123,3 +123,25 @@ nav img {
     height: auto;
     margin: 10px;
 }
+
+section {
+    border: 1px solid darkblue;
+    margin-top: 10px;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+}
+
+.gallery {
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.gallery img {
+    width: 180px;
+    height: auto;
+    padding-bottom: 10px;
+}
