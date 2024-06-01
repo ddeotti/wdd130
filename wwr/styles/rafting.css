@@ -151,12 +151,10 @@ section {
 .gallery figure {
     margin: 0;
     text-align: center;
-}
-
-.gallery figcaption {
     padding-bottom: 10px;
 }
-main {
+
+ain {
     width: 100%;
     display: flex;
     flex-direction: column;
