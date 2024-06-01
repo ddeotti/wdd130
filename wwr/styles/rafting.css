@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Alinha verticalmente */
+    justify-content: center; 
     min-height: 100vh;
 }
 
@@ -37,7 +37,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center; /* Alinha verticalmente */
+    align-items: center; 
 }
 
 p {
@@ -77,7 +77,7 @@ nav img {
 .hero {
     position: relative;
     display: flex;
-    align-items: center; /* Alinha verticalmente */
+    align-items: center; 
     justify-content: center;
     flex-direction: column;
     width: 100%;
@@ -126,7 +126,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Alinha verticalmente */
+    justify-content: center; 
     width: 100%;
 }
 
@@ -138,7 +138,7 @@ section {
 .gallery {
     display: flex;
     justify-content: space-around;
-    align-items: center; /* Alinha verticalmente */
+    align-items: center; 
     width: 100%;
 }
 
@@ -161,7 +161,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Alinha verticalmente */
+    justify-content: center; 
 }
 
 footer {
