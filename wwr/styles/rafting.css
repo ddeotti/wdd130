@@ -211,6 +211,10 @@ footer nav img {
     height: auto;
 }
 
+.bold {
+    font-weight:bold;
+}
+
 /* Contact us - CSS start */
 
 .contact-container {
@@ -243,7 +247,7 @@ justify-content: space-around;
 }
 
 .contact-container h1{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: center;
     color: #000;
 }
@@ -334,3 +338,9 @@ button:hover {
 }
 
 /* Team images end*/
+
+/* map */
+
+iframe {
+    border: 0px;
+}
