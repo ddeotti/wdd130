@@ -218,29 +218,39 @@ footer nav img {
   grid-template-columns: auto auto;
   background-color: #f6f2e9;
   width: 100%;
+justify-content: space-around;
 }
 .contact-item {
   height: auto;
   
 }
 
+.contact-radio{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 .contact-item p {
     padding: 0px;
     margin: 5px;
     font-size: 1.2rem;
+  width:fit-content;
 }
 
 .contact-container h1{
-    font-size: 1.2em;
+    font-size: 1.2rem;
     text-align: center;
     color: #000;
 }
 
 .contact-form {
   grid-row: 1/3;
-  font-size: 1.2rem;
+  font-size: 1rem;
   justify-content: flex-start;
-  padding: 10px;
+  padding: 5px;
+  width:fit-content;
+  
 }
 
 
@@ -255,6 +265,9 @@ form {
     border-radius: 0.5rem;
     background-color: #eee;
     display: grid;
+justify-content: space-around;
+    flex-wrap: wrap;
+    
 }
 
 label,
@@ -291,3 +304,26 @@ button:hover {
 }
 
 /* Contact us - CSS end */
+
+/* Team images start */
+
+.team-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.team-images figure {
+    margin: 1rem;
+    text-align: center;
+}
+
+.team-images img {
+    width: 128px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Team images end*/
