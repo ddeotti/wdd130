@@ -163,7 +163,7 @@ section {
     padding-bottom: 10px;
 }
 
-ain {
+main {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -172,11 +172,13 @@ ain {
 }
 
 footer {
-    display: flex;
+    display: grid;
     justify-content:space-between;
     width: 100%;
     background-color: var(--accent1-color);
+   grid-template-columns: auto auto;
 }
+
 
 footer p {
     display: flex;
@@ -189,4 +191,13 @@ footer .sociallinks {
     width: 100%;
 }
 
+footer nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: #f0f0f0; 
+}
 
+
+footer nav img {
+    width: 80%;
+    height: auto;
+}
