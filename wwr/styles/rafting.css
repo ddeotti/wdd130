@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 header {
     background-color: var(--accent1-color);
     width: 100%;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center; 
 }
@@ -47,6 +47,7 @@ p {
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
+    display: flex;
     width: 100%;
 }
 
