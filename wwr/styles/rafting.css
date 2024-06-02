@@ -281,6 +281,7 @@ select,
 textarea {
     font-family: Roboto, Arial, sans-serif;
     margin: 5px;
+    margin-top: 20px;
 }
 
 
@@ -301,6 +302,8 @@ button {
     padding: .75rem;
     font-size: 1rem;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 button:hover {
