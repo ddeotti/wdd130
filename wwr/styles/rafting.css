@@ -9,7 +9,7 @@
     --heading-font: 'Roboto', serif;
     --paragraph-font: 'Barlow', serif;
     --nav-background-color: #ffdb63;
-    --nav-link-color: #62524e;
+    --nav-link-color: #000;
     --nav-hover-link-color: #fff;
     --nav-hover-background-color: #000;
 }
@@ -36,8 +36,14 @@ header {
     background-color: var(--accent1-color);
     width: 100%;
     display: grid;
-    justify-content: center;
-    align-items: center; 
+    align-items: center;
+    grid-template-columns: auto auto;
+}
+
+header img {
+    width: 50%;
+    height: auto;
+    display: block;
 }
 
 p {
@@ -49,6 +55,11 @@ nav {
     font-size: 1.2rem;
     display: flex;
     width: 100%;
+}
+
+nav img {
+    width: 40%;
+    height: auto;
 }
 
 nav a {
@@ -68,10 +79,7 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-nav img {
-    width: 30%;
-    height: auto;
-}
+
 
 .history,
 .adventure,
@@ -93,7 +101,7 @@ nav img {
     background-color: rgba(255, 219, 99, 0.6);
     padding: 10px;
     font-family: var(--heading-font);
-    color: #fff;
+    color: #000;
     position: absolute;
     top: 0;
     left: 0;
