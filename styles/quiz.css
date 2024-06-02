@@ -60,19 +60,7 @@ form {
     display: flex;
 }
 
-fieldset {
-    display: grid;
-    grid-gap: .5rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-}
 
-legend {
-    padding: 0.5rem;
-    color: navy;
-    font-size: 1.3em;
-}
 
 label,
 input,
