@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    margin: 0;
+    color: #333;
+    background: #fff;
+}
+
+
+h1 {
+    text-align: center;
+    color: #4A235A;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+pre {
+    background-color: #252425;
+    color: #fff;
+    text-align: start;
+    padding: 17px;
+    width: 70%;
+    align-self: center;
+}
+
+
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+}
+
+h1::first-letter {
+    color: #000;
+}
+
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: flex;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Arial, sans-serif;
+}
+
+label {
+    text-align: start;
+    padding-right: 1rem;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+label::first-letter {
+    color: navy;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+
+.form-item {
+    display: grid;
+    align-items: center;
+    padding: 15px;
+    grid-template-columns: 1fr;
+}
+
+.preclass {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+}
