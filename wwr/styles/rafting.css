@@ -104,7 +104,6 @@ nav a:hover {
 .hero h1 {
     text-align: center;
     background-color: rgba(216, 189, 135, 0.6);
-
     padding: 10px;
     font-family: var(--heading-font);
     color: #000;
@@ -147,9 +146,12 @@ section {
 
 .history {
     display: grid;
-    grid-template-columns: 1fr 200px 1fr;
+    grid-template-columns: 1fr 300px 1fr;
 }
 
+.history img {
+    width:280px;
+}
 .gallery {
     display: flex;
     justify-content: space-around;
@@ -402,7 +404,7 @@ iframe {
 .box-over-video button {
     margin: 1rem;
     width: 100%;
-    background-color: rgb(202, 18, 18);
+    background-color: #940303;
     color: #fff;
     border: none;
     border-radius: .5rem;
@@ -443,7 +445,7 @@ iframe {
 .info-item h2 {
     font-weight: bold;
     font-size: 1rem;
-    background-color: #c11111;
+    background-color: #940303;
     color: #fff;
     padding: 5px;
     margin: 0;
@@ -456,3 +458,64 @@ iframe {
     background-color: #e0e0e0;
 }
 
+/* Trip offer images*/
+
+.trip-offer-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    justify-content: space-around;
+}
+
+.trip-offer-item {
+padding-bottom: 30px;
+}
+
+
+.trip-offer-item img {
+    height: 350px;
+}
+
+.trip-offer-item figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+.trip-offer-item figcaption {
+    margin: 0;
+    padding: 0;
+    color: #940303;
+    font-weight: bold;
+}
+
+.trip-offer-item button {
+    margin: 1rem;
+    width: 100%;
+    background-color: #940303;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.trip-offer-item button:hover {
+    background-color: #ce4646;
+}
+
+
+
+table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        th {
+            background-color: #f9f9f9;
+        }
