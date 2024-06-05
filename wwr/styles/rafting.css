@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+
 
 :root {
     --primary-color: #62524e;
@@ -555,7 +557,7 @@ iframe {
 .trip-page-box-item2 h4 {
     font-weight: bold;
     font-size: 1rem;
-    background-color: #940303;
+    background-color: #0a1e14;
     color: #fff;
     padding: 0;
     padding-top: 10px;
@@ -577,27 +579,24 @@ iframe {
 text-align: justify;
 }
 
+
+.trip-page-box-item2 button { 
+    background-color:#940303; 
+}
+
 .trip-page-box h1 {
     color: #940303;
     font-weight: bold;
-    font-family: fantasy;
+    font-family: "Archivo Black",serif;
+    font-size: 3rem;
     padding: 0;
     margin: 0;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th,
-td {
-    padding: 10px;
-    border: 1px solid #ccc;
-}
-
-th {
-    background-color: #f9f9f9;
+.trip-price {
+    color:#940303;
+    font-weight: bold;
+    background-color: transparent;
 }
 
 
