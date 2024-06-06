@@ -2,12 +2,12 @@
 <html lang="en-Us">
 
 <head>
-    <title>Contact Us - Dry Oar Rafting</title>
+    <title>Home - Dry Oar Rafting</title>
     <link rel="stylesheet" href="styles/rafting.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Diego Deotti">
-    <meta name="description" content="Contact us webpage">
+    <meta name="description" content="Home of webpage">
 </head>
 
 <body>
@@ -37,13 +37,21 @@
                     Whether you’re a seasoned rafter or a first-timer, we’ve got the perfect trip for you.
                 </p>
                 <img src="images/happy-woman.jpg" alt="Happy woman on rafting image">
-                <form>
-                    <input type="text" value="Subscribe to our newsletter">
-                    <button> Stay updated!</button>
-                </form>
-            </div>
+                <div class="box-over-space"></div>
+                <a href="trips.html"><button>Come to the action!</button></a>
+           </div>
         </div>
-
+                <form>
+                    <fieldset>
+                        <legend>Keep informed!</legend>
+                    <label for="fullname">Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                    <label for="useremail">e-mail:</label>
+                    <input type="email" id="useremail" name="useremail"> 
+                    <button> Stay updated!</button>
+                    </fieldset>
+                </form>
+ 
         <h1>Why Choose us?</h1>
         <div class="items-container">
             <div class="info-item">
@@ -84,23 +92,25 @@
         Book Now 🚣‍♂️🌊
         </p>
 
-            <h1>Most booked trips</h1>
+            <h1>Come to the action!</h1>
         <div class="trip-offer-container">
+            <div class="trip-offer-item"></div>
             <div class="trip-offer-item">
                 <figure>
                 <img src="images/trip-alone.jpg" alt="Alone trip image">
                 <figcaption>Sunset serenity</figcaption>
                 </figure>
-                <button>Book it!</button>
+                <a href="trips.html"><button>Book it!</button></a>
 
             </div>
 
+            <div class="trip-offer-item"></div>
             <div class="trip-offer-item">
                 <figure>
                 <img src="images/trip-group.jpg" alt="Group trip image">
                 <figcaption>Extreme scape</figcaption>
                 </figure>
-                <button>Book it!</button>
+                <a href="trips.html"><button>Book it!</button></a>
             </div>
         </div>
 
