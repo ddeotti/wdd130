@@ -210,6 +210,10 @@ footer p {
     font-size: 0.9em;
 }
 
+footer a {
+    color: #000;
+}
+
 
 footer .sociallinks {
     width: 100%;
