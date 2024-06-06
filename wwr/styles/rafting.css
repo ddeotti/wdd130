@@ -195,16 +195,15 @@ main {
 
 footer {
     display: grid;
+    grid-template-columns: auto auto auto;
     justify-content: space-between;
     width: 100%;
     background-color: var(--accent1-color);
-    grid-template-columns: auto auto;
     margin-top: 5px;
 }
 
 
 footer p {
-    display: flex;
     width: 100%;
     font-weight: bold;
     font-size: 0.9em;
@@ -212,7 +211,6 @@ footer p {
 
 
 footer .sociallinks {
-    display: flex;
     width: 100%;
 }
 
